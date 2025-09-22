@@ -4,7 +4,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class MockSongs {
-    public static List<SongV3> getSongStrings(){
+    public static List<SongV3> getSong(){
         List<SongV3> songs = new ArrayList<>();
         songs.add(new SongV3("somersault", "zero 7", 147));
         songs.add(new SongV3("cassidy", "grateful dead", 158));
