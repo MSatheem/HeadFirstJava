@@ -1,7 +1,3 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Class.java to edit this template
- */
 package example02sortingObjects;
 
 import java.util.HashSet;
@@ -25,6 +21,7 @@ public class JukeBoxV8 {
         
         //sorting the arraylist using lambda expressions according to their title
         songList.sort((one, two) -> one.getTitle().compareTo(two.getTitle()));
+        
         //printing the sorted list
         System.out.println(songList);
         
