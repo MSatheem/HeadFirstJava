@@ -1,2 +1,4 @@
 *.class
 *.lst
+*.class
+Chapter11CollectionAndGenerics/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst
